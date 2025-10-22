@@ -1,0 +1,271 @@
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 409:Plugin executed on: 'linux'
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 410:Plugin executed with python version: '3.13.3 (main, Apr  9 2025, 07:44:25) [GCC 14.2.1 20250207]'
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 411:KiCad build version: 9.0.2
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 412:Plugin version: 4.0.2
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 413:Frame repr: <wx._core.Frame object at 0x7a82f4de4680>
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 437:Preparing replicator with U1101 as a reference
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 485:source anchor footprint is 'U1101'
+Located on: ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 1/']
+With filenames: ['Tx.kicad_sch', 'dualhbridge.kicad_sch']
+With sheet_id:['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 1/']
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 492:Corresponding footprints are 
+[('U1101', ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 1/']), ('U1401', ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 4/']), ('U1301', ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 3/']), ('U1201', ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 2/'])]
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 504:Showing dialog
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'/Transmit Coils/Dual H-Bridge 1/', file:'dualhbridge.kicad_sch'
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 2/'], ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 3/'], ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 4/']]
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1507:Level selected: ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 1/']
+05-28 11:36:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+05-28 11:36:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 510:Toolbar position: wx.Point(1886, 61)
+05-28 11:36:17 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 515:Dialog position: wx.Point(1447, 61)
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 472:constructing a list of sheets suitable for replication on level:'/Transmit Coils/Dual H-Bridge 1/', file:'dualhbridge.kicad_sch'
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 509:suitable sheets are:[['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 2/'], ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 3/'], ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 4/']]
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 288:Starting replication of sheets: [['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 2/'], ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 3/'], ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 4/']]
+on level: ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 1/']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+05-28 11:36:19 root 340:updating GUI message: 'Preparing for replication'
+05-28 11:36:19 root 345:updating GUI with: 0
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of source footprints
+05-28 11:36:19 root 345:updating GUI with: 0
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 368:Getting the list of all the remaining footprints
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 375:Getting source tracks
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1331:Filtering list of tracks
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 379:Getting source zones
+05-28 11:36:19 root 345:updating GUI with: 50
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 383:Getting source text items
+05-28 11:36:19 root 345:updating GUI with: 66
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 387:Getting source drawing items
+05-28 11:36:19 root 345:updating GUI with: 83
+05-28 11:36:19 root 340:updating GUI message: 'Replicating footprints'
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 861:Replicating footprints
+05-28 11:36:19 root 345:updating GUI with: 0
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 2/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:abf4316f-a7c8-484f-86a9-7542e1423e58
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c45cd3e2-843b-4033-875c-0f4874d1a404
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:30acab1d-0b38-4f0a-9ff5-00457a014aa7
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:dab98965-ce05-4e45-a35c-97616c9e27b3
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:1930cf16-c6fd-467f-8681-74466c8b5733
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e26daa1c-4bd0-4015-924a-6a6e762674a8
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8481f8ff-adad-4b16-9844-db7582199f9b
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8264f5ed-7924-4f56-99ae-8c3195c030dd
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:678b9ed3-8294-47ae-adba-c734bd4d3b72
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a1645846-a201-4c10-840b-12b03b208dcb
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:889f91a6-0069-4529-b25c-8522c42b64c2
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:18795e7d-a237-4f0b-b550-73301687d328
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a4f7c691-d5ba-492f-bd10-64c522e4cb43
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:92b409e4-0166-4e9d-b656-8e39dbc012a6
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:3886b4cc-d2a2-45bb-acb8-e8e0bdf2b724
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ab092162-79d4-448f-8be6-fe7708e6c3ed
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:11040139-3038-4e5a-af08-d0f8863e95b1
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:903fed03-aeab-4391-ad93-c039cc4356c2
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:f020ea85-6bab-457e-8547-c4708170a731
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:92a1140b-bba7-4ccc-a163-d2c4145964ba
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:1cf55e23-14b0-4b80-8e02-8669dc8b4630
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c483b4c1-5225-4bcf-bcf8-cb0e83cb3218
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8a87bb83-bdec-449b-8d1c-a99affef0fc7
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:27926a51-d9d8-4331-b25c-50719fb6b237
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ed5b4478-164f-4248-9a5c-cf65c060dfd6
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a769386a-7348-47e3-a5a1-032e9120d6c3
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:2a0bdd29-6607-46aa-a412-cf76087597fb
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f69bdab7-4b12-4d31-944c-517c487c605a
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:77ea9034-5517-4d3c-bb3c-53316fb29c78
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3da0beb4-f222-455b-a86f-1bc6ddf5f197
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:78142e7e-7658-433a-b686-448ef455b13d
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9e33894c-dc4c-421a-8628-65f46d1a69df
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:9bc3d65c-8f46-4f53-8892-de79e0ce7340
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f0175c24-172a-4112-88ef-0eddb7a99c4a
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ebde9626-644c-4738-af1a-449d92037108
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a528476e-be53-4a6f-8626-a70f7a80f1ab
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:25246287-7922-4c93-a5b0-9c602ce39297
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:df577315-786d-4697-af97-bab8d02fcee4
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:353643cf-555c-4c00-bdfd-2ae6d1ecc2c0
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2c633fde-bc11-4767-800e-a958bc7e6bc9
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:f24ddb66-0ebe-40e8-a421-db5a8d6af7da
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:faff8d53-8836-4208-a8b7-9c4fab859426
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:f3c5ef45-86b2-4108-a06a-ea6e5b332546
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d04c0f44-67d3-4516-96b8-15cb815dee05
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c89c643b-3efd-4813-89ef-a1d7a2044192
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9ffc09fd-c6af-4b1b-8ced-8ddf2697e667
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:3f4240d4-8394-4086-824a-5507c34ac23d
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:d96087fd-4d97-403b-af2e-beb375a6cfc5
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:0e7e48e9-00d9-4587-a934-792c1575d624
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8528e328-4e46-4c24-8c7c-b08d18233a78
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:df7b6ac3-3960-4eee-ac42-9749075a789c
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:292247a6-9917-42c8-937e-3f1afa310499
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ff09a8c7-c8f6-4b13-a6ec-2c6d955a4890
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b7d35076-00af-4002-b4a6-1f9e2b98bd49
+05-28 11:36:19 root 345:updating GUI with: 33
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6062452a-deef-460d-b199-582f726be584
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f74178e8-a2ee-426c-baa1-1340f0b423b3
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c2bb0781-3966-4179-a116-64af44c0c2ee
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e891fd40-cfeb-41a2-86c2-5476523b4032
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:9908b964-4d93-49d8-9dee-5ed64eb51e88
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:793a9b63-9188-4330-b479-e380399a45fd
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 3/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:abf4316f-a7c8-484f-86a9-7542e1423e58
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8b315f3b-6dbf-4299-9a81-64fd4c4ead15
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:30acab1d-0b38-4f0a-9ff5-00457a014aa7
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f4e95574-59ea-41c8-a160-4e0b60343eef
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:1930cf16-c6fd-467f-8681-74466c8b5733
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:26bba8de-083e-4641-a79e-60d0fb5a0a89
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8481f8ff-adad-4b16-9844-db7582199f9b
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c031dee9-75e3-4c67-9b14-f4ebb2d071d5
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:678b9ed3-8294-47ae-adba-c734bd4d3b72
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:fb729b0c-55c7-41f3-ad37-65a3d27435cd
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:889f91a6-0069-4529-b25c-8522c42b64c2
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8e78c402-7f8c-4700-b427-bd80acd76327
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a4f7c691-d5ba-492f-bd10-64c522e4cb43
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9db73fae-0ff5-4672-a4e2-0bcf4af5dd7c
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:3886b4cc-d2a2-45bb-acb8-e8e0bdf2b724
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:684105d0-0fc7-4a1f-96a9-4add49a9d521
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:11040139-3038-4e5a-af08-d0f8863e95b1
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:c9c21893-a983-41fb-8d2d-096e028e5cb0
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:f020ea85-6bab-457e-8547-c4708170a731
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:434011d4-0ec3-433e-9258-e7eb13200662
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:1cf55e23-14b0-4b80-8e02-8669dc8b4630
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4239c241-38ea-44c2-93bf-5ba63d541a7a
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8a87bb83-bdec-449b-8d1c-a99affef0fc7
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:b2b4652b-4fe7-4189-8778-90b41ccc8a72
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ed5b4478-164f-4248-9a5c-cf65c060dfd6
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e34b61e8-6bd8-449a-88e1-53bad429d7ed
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:2a0bdd29-6607-46aa-a412-cf76087597fb
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:268342cc-079d-45f4-8804-c99c3d46dae7
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:77ea9034-5517-4d3c-bb3c-53316fb29c78
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9ea908da-c0b8-4cf1-b1cc-137411ed8bad
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:78142e7e-7658-433a-b686-448ef455b13d
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0ae93711-9f63-460c-b6a5-b721a45169a6
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:9bc3d65c-8f46-4f53-8892-de79e0ce7340
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:74f6ae8a-194b-4f8e-b91e-cac65da230a8
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ebde9626-644c-4738-af1a-449d92037108
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:ff664858-61a5-47d6-95db-3a1971362f62
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:25246287-7922-4c93-a5b0-9c602ce39297
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2ab61f4b-e90a-4cb5-b1bb-a2fca19b6c89
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:353643cf-555c-4c00-bdfd-2ae6d1ecc2c0
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:386ca1d6-8652-4e17-a9d7-f707e643b374
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:f24ddb66-0ebe-40e8-a421-db5a8d6af7da
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:8a9451fa-e22d-4666-bd66-b1bf2066ff60
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:f3c5ef45-86b2-4108-a06a-ea6e5b332546
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:2ba9b7d2-7bfa-4cd1-924d-809c9b452b7c
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c89c643b-3efd-4813-89ef-a1d7a2044192
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:a630838d-dfa4-41e0-88ff-9f8566586fb0
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:3f4240d4-8394-4086-824a-5507c34ac23d
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:56a74032-6f62-43fd-9efe-d755e2fe5c41
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:0e7e48e9-00d9-4587-a934-792c1575d624
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:1e2697c4-9f7d-4b99-9674-75f5158d8ba3
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:df7b6ac3-3960-4eee-ac42-9749075a789c
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:88f9b775-ecda-490c-a99d-5918945e4a90
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ff09a8c7-c8f6-4b13-a6ec-2c6d955a4890
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:9444d3db-b5f8-494d-9853-2d10320ed4ca
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6062452a-deef-460d-b199-582f726be584
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:884d86e2-fb7c-43e7-94f2-4f8c74f8a45a
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c2bb0781-3966-4179-a116-64af44c0c2ee
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f3193244-bf9b-45c8-8e05-fe3d34d8cded
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:9908b964-4d93-49d8-9dee-5ed64eb51e88
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3ca460f3-e560-4d90-ab8b-e11ab4eb2007
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 868:Replicating footprints on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 4/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:abf4316f-a7c8-484f-86a9-7542e1423e58
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:cde15897-1e94-427e-b155-59f4d0402326
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:30acab1d-0b38-4f0a-9ff5-00457a014aa7
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:3fc1481d-6159-4e07-93b9-7a65ee9e0e2d
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:1930cf16-c6fd-467f-8681-74466c8b5733
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:321c1d43-ddbb-4646-9027-f80d8b6c593a
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8481f8ff-adad-4b16-9844-db7582199f9b
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:1bd285ef-9e1e-4c5b-9a15-20b16fbd5d5d
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:678b9ed3-8294-47ae-adba-c734bd4d3b72
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:83966d47-6d39-4bf1-b4ab-6ec2d53f665d
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:889f91a6-0069-4529-b25c-8522c42b64c2
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f2a835e7-0324-4747-b80f-6e8af9cb7883
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:a4f7c691-d5ba-492f-bd10-64c522e4cb43
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5f19410e-6d85-413b-bc6b-e4e3a876eb6a
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:3886b4cc-d2a2-45bb-acb8-e8e0bdf2b724
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:bb73e415-df82-486e-a850-2ff08421f1fd
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:11040139-3038-4e5a-af08-d0f8863e95b1
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:45803012-414b-43fb-8d0b-3b3db3fa1299
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:f020ea85-6bab-457e-8547-c4708170a731
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:75850a74-8d76-4523-aa40-e28c08b98a06
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:1cf55e23-14b0-4b80-8e02-8669dc8b4630
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0b23a7c9-67e9-4b39-a75c-5966991b9bd1
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:8a87bb83-bdec-449b-8d1c-a99affef0fc7
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0b3d5f92-d234-4048-862e-65db4e62d5bd
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ed5b4478-164f-4248-9a5c-cf65c060dfd6
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:af87bbbc-ba26-43a3-9b7d-aeec921fb143
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:2a0bdd29-6607-46aa-a412-cf76087597fb
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:657f8d3c-a98e-4fbc-8ec5-64554316a36f
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:77ea9034-5517-4d3c-bb3c-53316fb29c78
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:09f70e33-6035-4785-a8b8-f0e83d52de74
+05-28 11:36:19 root 345:updating GUI with: 86
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:78142e7e-7658-433a-b686-448ef455b13d
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:7b49b97e-dba6-48c2-a060-7bae031c8611
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:9bc3d65c-8f46-4f53-8892-de79e0ce7340
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:bc7701da-54e6-4ad4-b97a-a5baea0605f4
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ebde9626-644c-4738-af1a-449d92037108
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:5f6ca159-d28c-4aba-b4ed-bd1c01406c42
+05-28 11:36:19 root 345:updating GUI with: 89
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:25246287-7922-4c93-a5b0-9c602ce39297
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:cc1734ad-ccd6-4d88-9bc7-382c13ef58cd
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:353643cf-555c-4c00-bdfd-2ae6d1ecc2c0
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:38663b07-14a2-4079-b850-7afc5d111ea5
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:f24ddb66-0ebe-40e8-a421-db5a8d6af7da
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e301a844-757e-4da1-a5ca-ceca0650421f
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:f3c5ef45-86b2-4108-a06a-ea6e5b332546
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:e13b8640-aa89-4abb-be56-da83c7b543ec
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c89c643b-3efd-4813-89ef-a1d7a2044192
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4aaa4f8e-ce81-4c73-a1da-f5d825e0d95a
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:3f4240d4-8394-4086-824a-5507c34ac23d
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:cc1cda18-3c15-4577-86e0-4cc2b66b044c
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:0e7e48e9-00d9-4587-a934-792c1575d624
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:f3bf370e-b3e0-4735-aa69-11de2e8af9f6
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:df7b6ac3-3960-4eee-ac42-9749075a789c
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:4568e74c-c46a-4708-b211-719b53456689
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:ff09a8c7-c8f6-4b13-a6ec-2c6d955a4890
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:0b6a54a8-6009-44b8-8bff-b378fe9842c6
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:6062452a-deef-460d-b199-582f726be584
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:37a3b855-ec98-42b6-bdc7-96c8f373ac41
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:c2bb0781-3966-4179-a116-64af44c0c2ee
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:bdc15df8-e0f9-44f0-846d-4ebc323fe717
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Src text UUid:9908b964-4d93-49d8-9dee-5ed64eb51e88
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 986:Dst text UUid:88082d88-66e1-43b9-9dde-b64fb0b592e0
+05-28 11:36:19 root 340:updating GUI message: 'Replicating tracks'
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating tracks
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 2/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'Measurement & Control', 'TX_SDO'] and dst net: ['', 'Transmit Coils', 'Dual H-Bridge 1', "QH'"], with src_net_depth=3, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.59
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 2/'] :[('/Measurement & Control/TX_SRCLK', '/Measurement & Control/TX_SRCLK'), ('/Transmit Coils/Dual H-Bridge 1/OUT3', '/Transmit Coils/Dual H-Bridge 2/OUT3'), ('/Transmit Coils/Dual H-Bridge 1/OUT2', '/Transmit Coils/Dual H-Bridge 2/OUT2'), ('Net-(U1101-QG)', 'Net-(U1201-QG)'), ('Net-(U1101-QH)', 'Net-(U1201-QH)'), ('/Transmit Coils/Dual H-Bridge 1/OUT8', '/Transmit Coils/Dual H-Bridge 2/OUT8'), ('Net-(U1101-QB)', 'Net-(U1201-QB)'), ('GND', 'GND'), ('Net-(U1101-QF)', 'Net-(U1201-QF)'), ("/Transmit Coils/Dual H-Bridge 1/QH'", "/Transmit Coils/QH'"), ('Net-(U1101-QC)', 'Net-(U1201-QC)'), ('/Transmit Coils/Dual H-Bridge 1/OUT5', '/Transmit Coils/Dual H-Bridge 2/OUT5'), ('Net-(U1101-QA)', 'Net-(U1201-QA)'), ('+5V', '+5V'), ('/Transmit Coils/Dual H-Bridge 1/OUT1', '/Transmit Coils/Dual H-Bridge 2/OUT1'), ('/Transmit Coils/Dual H-Bridge 1/OUT7', '/Transmit Coils/Dual H-Bridge 2/OUT7'), ('', ''), ('/Measurement & Control/TX_RCLK', '/Measurement & Control/TX_RCLK'), ('/Transmit Coils/Dual H-Bridge 1/OUT6', '/Transmit Coils/Dual H-Bridge 2/OUT6'), ('Net-(U1101-QE)', 'Net-(U1201-QE)'), ('/Measurement & Control/TX_SDO', "/Transmit Coils/Dual H-Bridge 1/QH'"), ('/Transmit Coils/Dual H-Bridge 1/OUT4', '/Transmit Coils/Dual H-Bridge 2/OUT4'), ('Net-(U1101-QD)', 'Net-(U1201-QD)')]
+05-28 11:36:19 root 345:updating GUI with: 0
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 3/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'Measurement & Control', 'TX_SDO'] and dst net: ['', 'Transmit Coils', "QH'"], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.52
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 3/'] :[('/Measurement & Control/TX_SRCLK', '/Measurement & Control/TX_SRCLK'), ('/Transmit Coils/Dual H-Bridge 1/OUT8', '/Transmit Coils/Dual H-Bridge 3/OUT8'), ('/Transmit Coils/Dual H-Bridge 1/OUT1', '/Transmit Coils/Dual H-Bridge 3/OUT1'), ('/Transmit Coils/Dual H-Bridge 1/OUT6', '/Transmit Coils/Dual H-Bridge 3/OUT6'), ('Net-(U1101-QD)', 'Net-(U1301-QD)'), ('Net-(U1101-QG)', 'Net-(U1301-QG)'), ('GND', 'GND'), ("/Transmit Coils/Dual H-Bridge 1/QH'", "/Transmit Coils/Dual H-Bridge 3/QH'"), ('/Measurement & Control/TX_SDO', "/Transmit Coils/QH'"), ('Net-(U1101-QC)', 'Net-(U1301-QC)'), ('Net-(U1101-QF)', 'Net-(U1301-QF)'), ('Net-(U1101-QE)', 'Net-(U1301-QE)'), ('/Transmit Coils/Dual H-Bridge 1/OUT3', '/Transmit Coils/Dual H-Bridge 3/OUT3'), ('Net-(U1101-QA)', 'Net-(U1301-QA)'), ('+5V', '+5V'), ('Net-(U1101-QB)', 'Net-(U1301-QB)'), ('/Transmit Coils/Dual H-Bridge 1/OUT2', '/Transmit Coils/Dual H-Bridge 3/OUT2'), ('', ''), ('/Transmit Coils/Dual H-Bridge 1/OUT7', '/Transmit Coils/Dual H-Bridge 3/OUT7'), ('/Measurement & Control/TX_RCLK', '/Measurement & Control/TX_RCLK'), ('/Transmit Coils/Dual H-Bridge 1/OUT5', '/Transmit Coils/Dual H-Bridge 3/OUT5'), ('/Transmit Coils/Dual H-Bridge 1/OUT4', '/Transmit Coils/Dual H-Bridge 3/OUT4'), ('Net-(U1101-QH)', 'Net-(U1301-QH)')]
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1015:Replicating tracks on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 4/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'Measurement & Control', 'TX_SDO'] and dst net: ['', 'Transmit Coils', 'Dual H-Bridge 3', "QH'"], with src_net_depth=3, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.59
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 4/'] :[('Net-(U1101-QA)', 'Net-(U1401-QA)'), ('Net-(U1101-QD)', 'Net-(U1401-QD)'), ('/Measurement & Control/TX_SRCLK', '/Measurement & Control/TX_SRCLK'), ('Net-(U1101-QF)', 'Net-(U1401-QF)'), ('/Transmit Coils/Dual H-Bridge 1/OUT3', '/Transmit Coils/Dual H-Bridge 4/OUT3'), ('/Transmit Coils/Dual H-Bridge 1/OUT7', '/Transmit Coils/Dual H-Bridge 4/OUT7'), ("/Transmit Coils/Dual H-Bridge 1/QH'", '/Transmit Coils/Dual H-Bridge 4/QH&apos;'), ('Net-(U1101-QC)', 'Net-(U1401-QC)'), ('GND', 'GND'), ('/Measurement & Control/TX_SDO', "/Transmit Coils/Dual H-Bridge 3/QH'"), ('Net-(U1101-QG)', 'Net-(U1401-QG)'), ('Net-(U1101-QH)', 'Net-(U1401-QH)'), ('/Transmit Coils/Dual H-Bridge 1/OUT5', '/Transmit Coils/Dual H-Bridge 4/OUT5'), ('/Transmit Coils/Dual H-Bridge 1/OUT1', '/Transmit Coils/Dual H-Bridge 4/OUT1'), ('/Transmit Coils/Dual H-Bridge 1/OUT2', '/Transmit Coils/Dual H-Bridge 4/OUT2'), ('+5V', '+5V'), ('Net-(U1101-QE)', 'Net-(U1401-QE)'), ('Net-(U1101-QB)', 'Net-(U1401-QB)'), ('/Transmit Coils/Dual H-Bridge 1/OUT8', '/Transmit Coils/Dual H-Bridge 4/OUT8'), ('', ''), ('/Measurement & Control/TX_RCLK', '/Measurement & Control/TX_RCLK'), ('/Transmit Coils/Dual H-Bridge 1/OUT6', '/Transmit Coils/Dual H-Bridge 4/OUT6'), ('/Transmit Coils/Dual H-Bridge 1/OUT4', '/Transmit Coils/Dual H-Bridge 4/OUT4')]
+05-28 11:36:19 root 345:updating GUI with: 66
+05-28 11:36:19 root 340:updating GUI message: 'Replicating zones'
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1079:Replicating zones
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 2/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'Measurement & Control', 'TX_SDO'] and dst net: ['', 'Transmit Coils', 'Dual H-Bridge 1', "QH'"], with src_net_depth=3, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.59
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 2/'] :[('/Measurement & Control/TX_SRCLK', '/Measurement & Control/TX_SRCLK'), ('/Transmit Coils/Dual H-Bridge 1/OUT3', '/Transmit Coils/Dual H-Bridge 2/OUT3'), ('/Transmit Coils/Dual H-Bridge 1/OUT2', '/Transmit Coils/Dual H-Bridge 2/OUT2'), ('Net-(U1101-QG)', 'Net-(U1201-QG)'), ('Net-(U1101-QH)', 'Net-(U1201-QH)'), ('/Transmit Coils/Dual H-Bridge 1/OUT8', '/Transmit Coils/Dual H-Bridge 2/OUT8'), ('Net-(U1101-QB)', 'Net-(U1201-QB)'), ('GND', 'GND'), ('Net-(U1101-QF)', 'Net-(U1201-QF)'), ("/Transmit Coils/Dual H-Bridge 1/QH'", "/Transmit Coils/QH'"), ('Net-(U1101-QC)', 'Net-(U1201-QC)'), ('/Transmit Coils/Dual H-Bridge 1/OUT5', '/Transmit Coils/Dual H-Bridge 2/OUT5'), ('Net-(U1101-QA)', 'Net-(U1201-QA)'), ('+5V', '+5V'), ('/Transmit Coils/Dual H-Bridge 1/OUT1', '/Transmit Coils/Dual H-Bridge 2/OUT1'), ('/Transmit Coils/Dual H-Bridge 1/OUT7', '/Transmit Coils/Dual H-Bridge 2/OUT7'), ('', ''), ('/Measurement & Control/TX_RCLK', '/Measurement & Control/TX_RCLK'), ('/Transmit Coils/Dual H-Bridge 1/OUT6', '/Transmit Coils/Dual H-Bridge 2/OUT6'), ('Net-(U1101-QE)', 'Net-(U1201-QE)'), ('/Measurement & Control/TX_SDO', "/Transmit Coils/Dual H-Bridge 1/QH'"), ('/Transmit Coils/Dual H-Bridge 1/OUT4', '/Transmit Coils/Dual H-Bridge 2/OUT4'), ('Net-(U1101-QD)', 'Net-(U1201-QD)')]
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 3/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'Measurement & Control', 'TX_SDO'] and dst net: ['', 'Transmit Coils', "QH'"], with src_net_depth=3, dst_net_depth=3, src_fp_depth=2, dst_fp_depth=2, match level 0.52
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 3/'] :[('/Measurement & Control/TX_SRCLK', '/Measurement & Control/TX_SRCLK'), ('/Transmit Coils/Dual H-Bridge 1/OUT8', '/Transmit Coils/Dual H-Bridge 3/OUT8'), ('/Transmit Coils/Dual H-Bridge 1/OUT1', '/Transmit Coils/Dual H-Bridge 3/OUT1'), ('/Transmit Coils/Dual H-Bridge 1/OUT6', '/Transmit Coils/Dual H-Bridge 3/OUT6'), ('Net-(U1101-QD)', 'Net-(U1301-QD)'), ('Net-(U1101-QG)', 'Net-(U1301-QG)'), ('GND', 'GND'), ("/Transmit Coils/Dual H-Bridge 1/QH'", "/Transmit Coils/Dual H-Bridge 3/QH'"), ('/Measurement & Control/TX_SDO', "/Transmit Coils/QH'"), ('Net-(U1101-QC)', 'Net-(U1301-QC)'), ('Net-(U1101-QF)', 'Net-(U1301-QF)'), ('Net-(U1101-QE)', 'Net-(U1301-QE)'), ('/Transmit Coils/Dual H-Bridge 1/OUT3', '/Transmit Coils/Dual H-Bridge 3/OUT3'), ('Net-(U1101-QA)', 'Net-(U1301-QA)'), ('+5V', '+5V'), ('Net-(U1101-QB)', 'Net-(U1301-QB)'), ('/Transmit Coils/Dual H-Bridge 1/OUT2', '/Transmit Coils/Dual H-Bridge 3/OUT2'), ('', ''), ('/Transmit Coils/Dual H-Bridge 1/OUT7', '/Transmit Coils/Dual H-Bridge 3/OUT7'), ('/Measurement & Control/TX_RCLK', '/Measurement & Control/TX_RCLK'), ('/Transmit Coils/Dual H-Bridge 1/OUT5', '/Transmit Coils/Dual H-Bridge 3/OUT5'), ('/Transmit Coils/Dual H-Bridge 1/OUT4', '/Transmit Coils/Dual H-Bridge 3/OUT4'), ('Net-(U1101-QH)', 'Net-(U1301-QH)')]
+05-28 11:36:19 root 345:updating GUI with: 66
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1086:Replicating zones on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 4/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 776:Significant difference between src net: ['', 'Measurement & Control', 'TX_SDO'] and dst net: ['', 'Transmit Coils', 'Dual H-Bridge 3', "QH'"], with src_net_depth=3, dst_net_depth=4, src_fp_depth=2, dst_fp_depth=2, match level 0.59
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 792:Net pairs for sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 4/'] :[('Net-(U1101-QA)', 'Net-(U1401-QA)'), ('Net-(U1101-QD)', 'Net-(U1401-QD)'), ('/Measurement & Control/TX_SRCLK', '/Measurement & Control/TX_SRCLK'), ('Net-(U1101-QF)', 'Net-(U1401-QF)'), ('/Transmit Coils/Dual H-Bridge 1/OUT3', '/Transmit Coils/Dual H-Bridge 4/OUT3'), ('/Transmit Coils/Dual H-Bridge 1/OUT7', '/Transmit Coils/Dual H-Bridge 4/OUT7'), ("/Transmit Coils/Dual H-Bridge 1/QH'", '/Transmit Coils/Dual H-Bridge 4/QH&apos;'), ('Net-(U1101-QC)', 'Net-(U1401-QC)'), ('GND', 'GND'), ('/Measurement & Control/TX_SDO', "/Transmit Coils/Dual H-Bridge 3/QH'"), ('Net-(U1101-QG)', 'Net-(U1401-QG)'), ('Net-(U1101-QH)', 'Net-(U1401-QH)'), ('/Transmit Coils/Dual H-Bridge 1/OUT5', '/Transmit Coils/Dual H-Bridge 4/OUT5'), ('/Transmit Coils/Dual H-Bridge 1/OUT1', '/Transmit Coils/Dual H-Bridge 4/OUT1'), ('/Transmit Coils/Dual H-Bridge 1/OUT2', '/Transmit Coils/Dual H-Bridge 4/OUT2'), ('+5V', '+5V'), ('Net-(U1101-QE)', 'Net-(U1401-QE)'), ('Net-(U1101-QB)', 'Net-(U1401-QB)'), ('/Transmit Coils/Dual H-Bridge 1/OUT8', '/Transmit Coils/Dual H-Bridge 4/OUT8'), ('', ''), ('/Measurement & Control/TX_RCLK', '/Measurement & Control/TX_RCLK'), ('/Transmit Coils/Dual H-Bridge 1/OUT6', '/Transmit Coils/Dual H-Bridge 4/OUT6'), ('/Transmit Coils/Dual H-Bridge 1/OUT4', '/Transmit Coils/Dual H-Bridge 4/OUT4')]
+05-28 11:36:19 root 340:updating GUI message: 'Replicating text'
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1168:Replicating text
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 2/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 3/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1175:Replicating text on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 4/']
+05-28 11:36:19 root 340:updating GUI message: 'Replicating drawings'
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1219:Replicating drawings
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 2/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 3/']
+05-28 11:36:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1225:Replicating drawings on sheet ['/Transmit Coils/', '/Transmit Coils/Dual H-Bridge 4/']
+05-28 11:36:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete
+05-28 11:36:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 267:Letting the user know there are some issues with replicated design
+05-28 11:36:20 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 271:Looks like the design has an exotic connectivity that the plugin might not handle properly
+ Make sure that you check the connectivity around:
+Footprint U1301, pad 14
+Footprint U1201, pad 14
+Footprint U1401, pad 14
+

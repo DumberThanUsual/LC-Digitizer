@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "freertos.h": "c",
+        "measure copy": "c",
+        "measure copy fp attempt": "c",
+        "*.measure copy": "c",
+        "*.measure copy fp attempt": "c",
+        "process.h": "c",
+        "stm32f3xx_hal.h": "c"
+    }
+}

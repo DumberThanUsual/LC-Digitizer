@@ -1,0 +1,84 @@
+(footprint "5mm 112.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4c4d52b7-1d03-4cf3-9ed3-919eab497168")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "5mm 112.5"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa4fbb86-23b5-4906-b3c7-8b0cc7b92d47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f48a58bc-ff19-4dc9-8885-5648ff5653a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3693769b-057e-4dc4-bf98-caa083e1c2cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd custom
+		(at 0 -2.5)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_arc
+				(start -2.04808 1.066344)
+				(mid -1.154526 0.282553)
+				(end 0 0)
+				(width 0.5)
+			)
+			(gr_arc
+				(start 0 0)
+				(mid 1.154526 0.282554)
+				(end 2.04808 1.066345)
+				(width 0.5)
+			)
+		)
+		(uuid "137d09ec-bf65-4ebe-a8c4-8d3a0da3a89c")
+	)
+	(embedded_fonts no)
+)
